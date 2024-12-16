@@ -3,8 +3,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="1800" d:DesignHeight="990"
-		MaxHeight="990" MinHeight="990"
-		MaxWidth="1900" MinWidth="1900"
+		MaxHeight="990" MinHeight="200"
+		MaxWidth="1900" MinWidth="1100"
 		x:CompileBindings="False"
 		WindowStartupLocation="CenterScreen"
         x:Class="DemoTest_12122024_1.MainWindow"
@@ -122,7 +122,7 @@
 				<DataTemplate>
 					<Border BorderThickness="2"
 							BorderBrush="Gray"
-							Background="White">
+							Background="{Binding ColorBrush}">
 						<Grid ColumnDefinitions="150,10,150"
 							  RowDefinitions="170,170,95"
 							  ShowGridLines="False">

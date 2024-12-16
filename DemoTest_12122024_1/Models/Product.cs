@@ -1,4 +1,5 @@
-﻿using Avalonia.Media.Imaging;
+﻿using Avalonia.Media;
+using Avalonia.Media.Imaging;
 using System;
 using System.Collections.Generic;
 
@@ -26,4 +27,6 @@ public partial class Product
 
     public virtual ICollection<ProductSale> ProductSales { get; set; } = new List<ProductSale>();
     public Bitmap Picture => ProductMainImage != null ? new Bitmap($@"Asset/{ProductMainImage}") : null;
+
+    public SolidColorBrush ColorBrush => ActiveId == 1 ? new SolidColorBrush(Color.Parse("White")) : new SolidColorBrush(Color.Parse("Gray"));
 }

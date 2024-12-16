@@ -40,8 +40,6 @@
 				 TextWrapping="Wrap"
 				 Watermark="Описание:"/>
 
-
-
 		<DockPanel Grid.Column="1">
 
 			<TextBlock Text="Индефикатор: "
@@ -54,7 +52,6 @@
 					   Margin="5 0 0 0"
 					   Width="250"/>
 		</DockPanel>
-		
 		
 		<StackPanel Grid.Column="1"
 					Grid.Row="1"

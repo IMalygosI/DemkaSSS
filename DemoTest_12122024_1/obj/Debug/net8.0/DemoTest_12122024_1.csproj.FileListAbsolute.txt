@@ -167,3 +167,4 @@ C:\Users\prdb\source\repos\DemoTest_12122024_1\DemoTest_12122024_1\bin\Debug\net
 C:\Users\prdb\source\repos\DemoTest_12122024_1\DemoTest_12122024_1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\prdb\source\repos\DemoTest_12122024_1\DemoTest_12122024_1\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\prdb\source\repos\DemoTest_12122024_1\DemoTest_12122024_1\bin\Debug\net8.0\school_logo.ico
+C:\Users\prdb\source\repos\DemoTest_12122024_1\DemoTest_12122024_1\obj\Debug\net8.0\DemoTest_12122024_1.sourcelink.json
